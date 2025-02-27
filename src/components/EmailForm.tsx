@@ -42,7 +42,7 @@ export default function EmailForm() {
           disabled={isLoading}
           className="h-12 px-8 transition-all duration-300 font-medium bg-primary hover:bg-primary/90"
         >
-          {isLoading ? 'Subscribing...' : 'Stay Updated'}
+          {isLoading ? 'Subscribing...' : 'Notify Me'}
         </Button>
       </div>
     </form>
