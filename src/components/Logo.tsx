@@ -15,7 +15,7 @@ const Logo: React.FC<LogoProps> = ({ className }) => {
         onError={(e) => {
           const target = e.target as HTMLImageElement;
           target.onerror = null;
-          target.src = '/placeholder.svg';
+          target.src = 'public/writemind.png';
         }}
       />
     </div>
