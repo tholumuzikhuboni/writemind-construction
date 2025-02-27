@@ -1,4 +1,4 @@
-vimport React from "react";
+import React from "react";
 import Logo from "@/components/Logo";
 import EmailForm from "@/components/EmailForm";
 import Footer from "@/components/Footer";
@@ -34,8 +34,8 @@ const Index = () => {
                 Coming Soon
               </Badge>
               
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">  
-              Website Under <span className="text-primary">Construction</span>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+              Website Under <span style={{ color: "#206BC4" }}>Construction</span>
               </h1>
               
               <div className="h-px w-24 bg-primary/30 mx-auto my-6"></div>
