@@ -30,8 +30,8 @@ const Index = () => {
                 </div>
               </div>
 
-              <Badge variant="outline" className="bg-white/80 backdrop-blur-sm px-4 py-1 border-primary/20 text-primary">
-                Coming Soon
+              <Badge variant="outline" className="bg-white/80 backdrop-blur-sm px-4 py-1 border-primary/20" style={{ color: "#206BC4" }}>
+              Coming Soon
               </Badge>
               
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
